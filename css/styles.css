@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+  }
+
+
+.color1{
+    background-color:#2b4fa3 ;
+}
+.color2{
+    background-color:#6d70ba ;
+}
+.color3{
+    background-color:#a499d4 ;
+}
+.color4{
+   background-color: #d5c6f0;
+}
+.color5{
+    background-color:#fef2ff;
+}
+
+body{
+    margin-top: 0;
+  }
+
+  .nombre{
+    color: #0c2e41;
+  }
+  .ocupacion{
+    color: #0c2e41;
+  }
+  .datospersonales{
+color:#375b80 ;
+  }
+
+  .educacion{
+    color:#375b80 ;
+      }

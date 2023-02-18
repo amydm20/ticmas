@@ -2,46 +2,132 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <meta name="description" content="Curriculumm desarrollador web Gilbert Duncan">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>CV-Gilbert Duncan</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta name="description" content="Curriculumm desarrollador web Gilbert Duncan">
+  <title>Gilbert Duncan</title>
+  <link rel="icon" href="imagenes/favicon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <h1>Gilbert Duncan</h1>
-    <h2>Datos personales</h2>
-    <h3>Fecha de Nacimiento:</h3>
-    <p> 10/05/1996</p>
-    <h3>Dirección:</h3>
-    <p>Av. Mate de Luna 1920, San Miguel de Tucumán, Tucumán, Argentina</p>
-    <h3>Mail:</h3>
-    <p>gilbert.duncan@example.com</p>
-    <h2>Experiencia</h2>
-    <h3>Analista-Programador / 2020 hasta la fecha</h3>
-    <p>Servicios técnicos- S.P Tucumán </p>
-    <ul>
-        <li>Toma de requerimientos con el cliente.</li>
-        <li>Analisis de requerimientos y diseño de aplicaciones</li>
-        <li>Desarrollo de aplicaciones utilizando Javascript</li>
-    </ul>
-    <h3>Programador Full Stack /diciembre 2019- diciembre 2020</h3>
-    <p>Finanbest, Córdoba.</p>
-    <ul>
-        <li>Desarrollo Front End y Back End de aplicaciones con Typescript,Javascript, Pho, MySQL, HTML5.</li>
-        <li>Realización de test de aplicaciones.</li>
-        <li>Solución de incidencias.</li>
-    </ul>
-    <h3>Programador Web / diciembre 2017-diciembre 2020</h3>
-    <p>Sistemas informáticos Alta Gracia, Córdoba.</p>
-    <ul>
-        <li>Desarrollo de aplicaciones web para clientes dela empresa del sector ffinanciero utilizando Javascript, PHP.</li>
+  <!--navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary color2 ">
+    <div class="container-fluid d-flex justify-content-between">
+      <a class="navbar-brand" href="#"><img src="imagenes/logo_transparent.png" class="img-fluid"
+          alt="un logo con las siglas G.D"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Datos personales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Formación profesional</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Idiomas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Softwares y habilidades</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- portada -->
+  <main class="color3">
+    <section class="container-fluid d-flex justify-content-center align-items-center p-3">
+      <div class="container-fluid">
+        <img src="imagenes/Gilbert-foto.jpg" class="rounded-circle m-2" alt="">
+      </div>
+      <div class="container-fluid">
+        <h1 class="nombre">Gilbert Duncan</h1>
+      </div>
+      <div class="container-fluid">
+        <h2 class="ocupacion">Desarrollador Web</h2>
+      </div>
+
+    </section>
+  </main>
+  <!-- datos personales -->
+  <section class="container-fluid color4 p-5 datospersonales">
+  <div class="container-fluid p-4 border border-5 rounded-5">
+  <h2 class="text-decoration-underline fw-bold text-center">Datos personales</h2>
+  <h3>Fecha de Nacimiento:</h3>
+  <p> 10/05/1996</p>
+  <h3>Dirección:</h3>
+  <p>Av. Mate de Luna 1920, San Miguel de Tucumán, Tucumán, Argentina</p>
+  <h3>Mail:</h3>
+  <p>gilbert.duncan@example.com</p>
+</div>
+</section>
+<!-- Educación -->
+
+  <section class="container-fluid color4 p-5 py-3 educacion">
+    <div class="container-fluid p-4 border border-5 rounded-5">
+    <h2 class="text-decoration-underline fw-bold text-center">Educación</h2>
+    <h3>Desarrollo web-Programación/Argentina Programa 4.0</h3>
+  <p>2018-2019</p>
+  <h3>Desarrollo Web FrontEnd/CoderHouse</h3>
+  <p>2020</p>
+  <h3>Desarrollo FrontEnd Ticmas</h3>
+  <p>2022</p>
+  </div>
+  </section>
+
+  <h2>Idiomas</h2>
+  <h3>Ingles</h3>
+  <p>Nivel medio</p>
+  <h3>Italiano</h3>
+  <p>Nivel medio</p>
+  <h2>Experiencia</h2>
+  <h3>Analista-Programador / 2020 hasta la fecha</h3>
+  <p>Servicios técnicos- S.P Tucumán </p>
+  <ul>
+    <li>Toma de requerimientos con el cliente.</li>
+    <li>Analisis de requerimientos y diseño de aplicaciones</li>
+    <li>Desarrollo de aplicaciones utilizando Javascript</li>
+  </ul>
+  <h3>Programador Full Stack /diciembre 2019- diciembre 2020</h3>
+  <p>Finanbest, Córdoba.</p>
+  <ul>
+    <li>Desarrollo Front End y Back End de aplicaciones con Typescript,Javascript, Pho, MySQL, HTML5.</li>
+    <li>Realización de test de aplicaciones.</li>
+    <li>Solución de incidencias.</li>
+  </ul>
+  <h3>Programador Web / diciembre 2017-diciembre 2020</h3>
+  <p>Sistemas informáticos Alta Gracia, Córdoba.</p>
+  <ul>
+    <li>Desarrollo de aplicaciones web para clientes dela empresa del sector ffinanciero utilizando Javascript, PHP.
+    </li>
     <li>Manteninimento de aplicaciones web.</li>
     <li>Maquetación HTML5, CSS3, Boostrap.</li>
     <li>Manejo de datos SML, JSON.</li>
-    </ul>
+  </ul>
+  <h2>Softwares y habilidades</h2>
+  <ul>
+    <li>PHP</li>
+    <li>Phyton</li>
+    <li>C++</li>
+    <Li>Java</Li>
+    <li>Proyect Managment</li>
+    <li>Team Work</li>
+  </ul>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 
 </html>
