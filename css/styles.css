@@ -7,7 +7,7 @@
 
 
 .color1 {
-  background-color: #2b4fa3;
+  background-color: #0e255a;
 }
 
 .color2 {
@@ -30,12 +30,20 @@ body {
   margin-top: 0;
 }
 
-.nombre {
-  color: #0c2e41;
+.portada {
+  background-image: url(../imagenes/Rstats.jpg); 
+  background-size: 100% auto;
+ background-position: center top;
+ background-repeat: no-repeat;
 }
 
+.nombre {
+  color: #fef2ff;
+} 
+ 
+
 .ocupacion {
-  color: #0c2e41;
+  color: #fef2ff;
 }
 
 .datospersonales {
