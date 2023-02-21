@@ -64,4 +64,11 @@ body {
 .softwares-habilidades{
   color: #375b80;
 }
+.copyright{
+  color: #fef2ff;
+}
 
+.lista-final{
+  color: #fef2ff;
+  list-style: none;
+}
